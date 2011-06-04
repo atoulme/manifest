@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.name           = 'manifest'
   spec.version        = '0.0.8'
   spec.author         = 'Antoine Toulme'
-  spec.email          = "atoulme@intalio.com"
+  spec.email          = "antoine@lunar-ocean.com"
   spec.homepage       = "http://manifest.rubyforge.org"
   spec.summary        = "A MANIFEST.MF file reader"
   spec.description    = <<-TEXT
@@ -26,7 +26,7 @@ In the realm of the text file, few files have been as hard to read as MANIFEST.M
 Frankly, they suck, and we'd better be off without them. That's where we come in.
 TEXT
   spec.files          = Dir['{lib}/**/*', '*.{gemspec}'] +
-                        ['License.txt', 'README.txt']
+                        ['LICENSE', 'README.txt']
   spec.require_paths  = ['lib']
   spec.has_rdoc         = false
 end

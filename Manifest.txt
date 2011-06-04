@@ -1,5 +1,0 @@
-History.txt
-License.txt
-README.txt
-lib/manifest.rb
-lib/manifest/version.rb
