@@ -24,7 +24,7 @@ module Manifest
 
     text.split(MANIFEST_SECTION_SEP).reject { |s| s.chomp == "" }.map do |section|
       section.split(MANIFEST_LINE_SEP).each { |line| line.length < 72 }.inject([]) { |merged, line|
-        if line[0] == 32
+        if line[0] == ' '
           merged.last << line[1..-1]
         else
           merged << line
