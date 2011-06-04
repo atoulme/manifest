@@ -16,7 +16,7 @@
 
 Gem::Specification.new do |spec|
   spec.name           = 'manifest'
-  spec.version        = '0.0.8'
+  spec.version        = '1.0.0'
   spec.author         = 'Antoine Toulme'
   spec.email          = "antoine@lunar-ocean.com"
   spec.homepage       = "http://manifest.rubyforge.org"
